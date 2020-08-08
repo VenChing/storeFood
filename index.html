@@ -1,12 +1,39 @@
+<!--
+ * @Description: Web project
+ * @Version: 2.0
+ * @Autor: Xu.wenqing
+ * @Email: 2510129345@qq.com
+ * @Date: 2020-08-08 13:23:30
+ * @LastEditors: Xu.wenqing
+ * @LastEditTime: 2020-08-08 14:46:15
+-->
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <title>storefood</title>
   </head>
   <body>
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
-</html>
+  <script>
+// rem + js 判断控制字体大小
+//得到手机屏幕的宽度
+let htmlWidth =
+  document.documentElement.clientWidth || document.body.clientWidth;
+//得到html的Dom元素
+let htmlDom = document.getElementsByTagName("html")[0];
+ // 解决页面字体过大
+     if(htmlWidth>750){htmlWidth=750}
+    //  当页面宽度大于750px时，我们就把页面的宽度设置成750像素。
+
+
+//设置根元素字体大小
+htmlDom.style.fontSize = htmlWidth / 20 + "px";
+console.log(htmlWidth);
+
+</script>
+</html>  
