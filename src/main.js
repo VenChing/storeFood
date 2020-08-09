@@ -4,8 +4,8 @@
  * @Autor: Xu.wenqing
  * @Email: 2510129345@qq.com
  * @Date: 2020-08-08 13:23:30
- * @LastEditors: Xu.wenqing
- * @LastEditTime: 2020-08-09 00:37:52
+ * @LastEditors: WenChing
+ * @LastEditTime: 2020-08-09 19:37:21
  */
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
@@ -24,7 +24,7 @@ import App from './App';
 import router from './router';
 
 Vue.config.productionTip = false;
-import axios from 'axios';
+// import axios from 'axios';
 // Vue.property.$http = axios;
 
 // 按需引入van
