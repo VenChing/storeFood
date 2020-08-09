@@ -1,4 +1,4 @@
-# storefood
+# Takeaway
 
 > A Vue.js project
 
